@@ -1,0 +1,30 @@
+<template> 
+    <v-toolbar border density="comfortable">
+        <v-col class="d-flex justify-space-around">
+            <v-btn to="/accueil">Accueil</v-btn>
+        </v-col>
+        <v-col class="d-flex justify-space-around">
+            <v-btn to="/Rapports">Rapports</v-btn>
+        </v-col>
+        <v-col class="d-flex justify-space-around">
+            <v-btn to="/Medecin">Medecin</v-btn>
+        </v-col>
+        <v-col class="d-flex justify-space-around">
+            <v-btn to="/Medecin">Déconnexion</v-btn>
+        </v-col>
+        
+    </v-toolbar>
+
+
+</template>
+
+
+<script>
+export default {
+    name: 'NavbarComponent'
+}
+
+</script>
+
+<style>
+</style>
